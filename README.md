@@ -1,1 +1,1 @@
-# lab-scipi
+# lab-scipy
