@@ -31,10 +31,10 @@ plt.plot(CX, CY,'ro')
 
 # Show initial Circle
 init_radius=2
-patch1 = plt.Circle((CX[0], -CY[0]), init_radius, color='g', fill=True)
-patch2 = plt.Circle((CX[1], -CY[1]), init_radius, color='r', fill=True)
-patch3 = plt.Circle((CX[2], -CY[2]), init_radius, color='b', fill=True)
-patch4 = plt.Circle((CX[3], -CY[3]), init_radius, color='y', fill=True)
+patch1 = plt.Circle((CX[0], -CY[0]), init_radius, color='g', fill=False)
+patch2 = plt.Circle((CX[1], -CY[1]), init_radius, color='r', fill=False)
+patch3 = plt.Circle((CX[2], -CY[2]), init_radius, color='b', fill=False)
+patch4 = plt.Circle((CX[3], -CY[3]), init_radius, color='y', fill=False)
 
 
 def init():
